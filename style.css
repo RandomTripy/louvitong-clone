@@ -1,6 +1,6 @@
 body{
     font-family: var(--bs-body-font-family);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 
@@ -8,22 +8,20 @@ body{
     padding: 8px 35px;
 }
 
-.me-2{
-    height: 40px;
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
 }
 
-.d-flex{
-    position: relative;
-    vertical-align: middle;
+.me-2{
+    height: 40px;
 }
 
 .navbar-brand{
     font-weight: 500;
 }
 
-.btn{
-    margin-top: 20px;
-}
+
 
 .mainLetter{
     display: flex;
