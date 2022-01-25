@@ -13,6 +13,12 @@ body{
     border-color: chocolate;
 }
 
+.btn-outline-success:hover{
+    color: white;
+    border-color: chocolate;
+    background-color: chocolate;
+}
+
 .me-2{
     height: 40px;
 }
@@ -67,4 +73,10 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 48px 0 48px 0;
+}
+
+@media screen and (max-width:48rem) {
+    body{
+        text-align: center;
+    }
 }
